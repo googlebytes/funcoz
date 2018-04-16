@@ -70,7 +70,6 @@ DATABASES_AWS = {
 
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #'NAME': 'treebo',
         'NAME': 'postgres_db',
         'USER': 'sumitc91_paytm_postgres_instance',
         'PASSWORD': 'sumitc91paytm',
