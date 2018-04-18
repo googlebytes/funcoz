@@ -66,19 +66,7 @@ DATABASES_LOCAL = {
     }
 }
 
-DATABASES_AWS = {
-
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres_db',
-        'USER': 'sumitc91_paytm_postgres_instance',
-        'PASSWORD': 'sumitc91paytm',
-        'HOST': 'sumitc91paytmpostgresinstance.cmfxc7scgwzx.us-east-2.rds.amazonaws.com',
-        'PORT': '5432',
-    }
-}
-
-DATABASES = DATABASES_AWS
+DATABASES = DATABASES_LOCAL
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
